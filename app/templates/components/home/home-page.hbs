@@ -1,0 +1,17 @@
+{{home/menu-top}}
+
+<div class="home_container">
+  {{home/action-in-progres
+    activities=activeActivities
+    onClick=onActivityClick
+  }}
+
+  <div class="activity_buttons">
+    {{#each activities as |activity|}}
+      {{activity-button
+        onClick=onActivityClick
+        activity=activity
+      }}
+    {{/each}}
+  </div>
+</div>

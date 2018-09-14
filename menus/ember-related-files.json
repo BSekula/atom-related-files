@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ember-related-files",
+        "command": "ember-related-files:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ember-related-files",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ember-related-files:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

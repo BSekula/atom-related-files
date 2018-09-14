@@ -1,0 +1,19 @@
+{
+  "name": "ember-related-files",
+  "main": "./lib/ember-related-files",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "ember-related-files:toggle"
+  },
+  "repository": "https://github.com/atom/ember-related-files",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.2",
+    "file": "^0.2.2"
+  }
+}

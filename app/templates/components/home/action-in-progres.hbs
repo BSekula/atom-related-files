@@ -1,0 +1,12 @@
+{{#if activities }}
+
+  <h1>Current Activities</h1>
+  {{#each activities as |activity|}}
+  
+    <div {{action "click" activity}} >
+      {{activity.name}}
+    </div>
+    
+  {{/each}}
+
+{{/if}}
