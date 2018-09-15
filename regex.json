@@ -3,6 +3,6 @@
     "matchNumber": "1",
     "search": ".*js$",
     "searchDir": "app/components",
-    "test": "templates/components.*.hbs$"
+    "test": ".*/templates/.*hbs$"
   }
 }
