@@ -1,14 +1,14 @@
 {
-  "isTemplate": {
+  "Template": {
     "matchNumber": "1",
-    "search": ".*js$",
-    "searchDir": "app/components",
-    "test": ".*/templates/.*hbs$"
+    "search": ".*(1)\\.js$",
+    "searchDir": "app",
+    "test": ".*/templates/(.*)\\.hbs$"
   },
-  "isTemplate2": {
+  "Template": {
     "matchNumber": "1",
-    "search": ".*js$",
-    "searchDir": "app/adapters",
-    "test": ".*/templates/.*hbs$"
+    "search": ".*(1)\\.js$",
+    "searchDir": "app",
+    "test": ".*/templates/(.*)\\.hbs$"
   }
 }
