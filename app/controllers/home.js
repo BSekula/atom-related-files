@@ -6,7 +6,7 @@ export default Controller.extend({
     onActivityClick(activity) {
       this.store.find('activity', activity.id).then((activity) => {
         activity.set('isActive', !activity.isActive);
-        activity.save();        
+        activity.save();
       });
     }
   }

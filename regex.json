@@ -1,14 +1,17 @@
 {
-  "Template": {
-    "matchNumber": "1",
+  "Component": {
     "search": ".*(1)\\.js$",
     "searchDir": "app",
     "test": ".*/templates/(.*)\\.hbs$"
   },
   "Template": {
-    "matchNumber": "1",
-    "search": ".*(1)\\.js$",
+    "search": ".*(1)\\.hbs$",
     "searchDir": "app",
-    "test": ".*/templates/(.*)\\.hbs$"
+    "test": ".*/(.*)\\.js$"
+  },
+  "Route": {
+    "search": ".*(1)\\.js",
+    "searchDir": "app/routes",
+    "test": ".*/(.*)\\.js$"
   }
 }
