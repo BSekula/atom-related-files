@@ -1,8 +1,9 @@
 {
-  "Component": {
+  "Component for HBS template": {
     "search": ".*(1)\\.js$",
     "searchDir": "app",
-    "test": ".*/templates/(.*)\\.hbs$"
+    "test": ".*/templates/(.*)\\.hbs$",
+    "label": "Component"
   },
   "Template": {
     "search": ".*(1)\\.hbs$",
