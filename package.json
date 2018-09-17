@@ -1,13 +1,13 @@
 {
-  "name": "ember-related-files",
-  "main": "./lib/ember-related-files",
+  "name": "atom-related-files",
+  "main": "./lib/atom-related-files",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "ember-related-files:toggle"
+    "atom-workspace": "atom-related-files:toggle"
   },
-  "repository": "https://github.com/atom/ember-related-files",
+  "repository": "https://github.com/atom/atom-related-files",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

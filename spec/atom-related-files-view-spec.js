@@ -1,6 +1,6 @@
 'use babel';
 
-import EmberRelatedFilesView from '../lib/ember-related-files-view';
+import EmberRelatedFilesView from '../lib/atom-related-files-view';
 
 describe('EmberRelatedFilesView', () => {
   it('has one valid test', () => {
